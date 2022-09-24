@@ -20,3 +20,7 @@ CLI (program terminalowy, bezokienkowy, skrypt) do systemu kontroli wersji.
 - push - wysyla Twoja historie do zewnetrznego repozytorium
 - pull - sciaga historie z zewnetrznego repozytorium
 - log - pokazuje historie
+
+### Inne
+
+- konflikt - sytuacja w ktorej ktos zmienil to samo co Ty (w momencie pulla/merge-a), trzeba rozwiazac konflikt przed dalsza praca
