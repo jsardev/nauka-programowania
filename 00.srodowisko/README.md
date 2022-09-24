@@ -17,3 +17,6 @@ CLI (program terminalowy, bezokienkowy, skrypt) do systemu kontroli wersji.
 - status - pokazuje ktore pliki sie zmienily w porownaniu do ostatniej wersji
 - add - dodaje konkretne pliki do "stage"
 - diff - pokazuje roznice w plikach w porownaniu do ostatniej wersji
+- push - wysyla Twoja historie do zewnetrznego repozytorium
+- pull - sciaga historie z zewnetrznego repozytorium
+- log - pokazuje historie
