@@ -1,0 +1,1 @@
+TODO: Uzupelnij o edytor kodu, skroty klawiszowe

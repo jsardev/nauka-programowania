@@ -1,5 +1,3 @@
-TODO: Uzupelnij o edytor kodu, skroty klawiszowe
-
 # System kontroli wersji
 
 - Git - https://git-scm.com/ (Wazne)
