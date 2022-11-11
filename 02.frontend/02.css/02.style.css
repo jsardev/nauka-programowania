@@ -1,20 +1,24 @@
-#naglowek {
-    width: 500px;
-    height: 100px;
-    color: white;
-    background-color: burlywood;
-    font-size: 36px;
-    font-weight: 700;
+.naglowek{
+    background-color: antiquewhite;
+    display: flex;
 }
-
-#menu {
-
+.logo-obrazek{
+    height:50px;
 }
-
-.post {
-    background-color: azure;
+.logo-nazwa{
+	margin: 0;
 }
-
-.post p {
-    font-style: italic;
+.logo{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+.lista{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.przycisk{
+    margin-left: auto;
 }
