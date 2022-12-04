@@ -1,27 +1,46 @@
-.naglowek{
+.naglowek {
     background-color: antiquewhite;
     display: flex;
     align-items: center;
-    margin: auto;
-    max-width: 1200px;
+
 }
-.logo-obrazek{
-    height:50px;
+
+.logo-obrazek {
+    height: 50px;
 }
-.logo-nazwa{
-	margin: 0;
+
+.logo-nazwa {
+    margin: 0;
 }
-.logo{
+
+.logo {
     display: flex;
     gap: 10px;
     flex-direction: row;
     align-items: center;
 }
-.lista{
+
+.lista {
     display: flex;
     list-style: none;
     gap: 15px;
 }
-.przycisk{
+
+.przycisk {
     margin-left: auto;
+}
+
+.baner {
+    display: flex;
+    background-color: rgb(46, 138, 243);
+    padding: 140px;
+    box-sizing: border-box;
+    background-image: url(https://images.unsplash.com/photo-1587496679742-bad502958fbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+    background-size: cover;
+    background-position-y: center;
+}
+
+.kontener {
+    margin: auto;
+    max-width: 1200px;
 }
