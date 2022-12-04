@@ -1,6 +1,9 @@
 .naglowek{
     background-color: antiquewhite;
     display: flex;
+    align-items: center;
+    margin: auto;
+    max-width: 1200px;
 }
 .logo-obrazek{
     height:50px;
