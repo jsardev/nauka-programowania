@@ -44,3 +44,23 @@
     margin: auto;
     max-width: 1200px;
 }
+
+.post {
+    display: flex;
+    flex-direction: row;
+}
+
+.post-obrazek {
+    margin-right: 20px;
+}
+
+.post-guzik {
+    display: flex;
+justify-content: flex-end;
+}
+
+.posty {
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
