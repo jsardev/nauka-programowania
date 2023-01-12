@@ -56,11 +56,20 @@
 
 .post-guzik {
     display: flex;
-justify-content: flex-end;
+    justify-content: flex-end;
 }
 
 .posty {
-display: flex;
-flex-direction: column;
-gap: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.stopa {
+    display: flex;
+    justify-content: space-between;
+}
+
+.zakonczenie {
+    text-align: center;
 }
