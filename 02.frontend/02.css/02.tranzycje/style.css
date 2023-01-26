@@ -1,0 +1,68 @@
+.dif {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(228, 80, 80);
+    /* JAKI_STYL(np. background-color itd.) CZAS_TRWANIA RODZAJ_ANIMACJI */
+    /* rodzaje animacji: https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function */
+    transition: background-color 0.5s ease-in;
+}
+
+.dif:hover {
+    background-color: green;
+}
+
+.dif2 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(228, 80, 80);
+}
+
+.dif2:hover {
+    animation: costam 2s ease-in forwards, kolory 2s ease-in forwards;
+}
+
+@keyframes costam {
+    from {
+        margin-top: 0;
+    }
+
+    to {
+        margin-top: 100px;
+    }
+}
+
+@keyframes kolory {
+    0% {
+        background-color: blue;
+    }
+
+    50% {
+        background-color: purple;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
+.buton {
+    background-color: red;
+}
+
+.buton:hover {
+    background-color: green;
+}
+
+.buton:active {
+    background-color: purple;
+}
+
+.buton:focus {
+    background-color: aqua;
+}
+
+.input:focus {
+    /* border: _GRUBOŚĆ_px RODZAJ_OBRAMOWANIA KOLOR; */
+    /* Rodzaj obramowania: https://developer.mozilla.org/en-US/docs/Web/CSS/border-style */
+    border: 2px solid coral;
+}
