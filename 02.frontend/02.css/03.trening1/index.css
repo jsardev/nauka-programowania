@@ -1,0 +1,39 @@
+.header {
+  background-color: #e5a82d;
+  width: 100%;
+  height: 60px;
+  display: flex;
+}
+
+html,
+body {
+  margin: 0px;
+}
+
+.container {
+  max-width: 1040px;
+  margin: auto;
+  width: 100%;
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+}
+
+.header__content--right {
+  display: flex;
+  margin-left: auto;
+  gap: 25px;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 24px;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 0px;
+}
