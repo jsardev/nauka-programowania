@@ -14,7 +14,8 @@
 html,
 body,
 h1,
-p {
+p,
+h5 {
   margin: 0px;
 }
 
@@ -83,4 +84,40 @@ p {
 
 .header__content-title--highlight {
 	color: var(--color-primary);
+}
+
+h3 {
+  font-size: 31.25px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+.post__avatar {
+  width: 24px;
+height: 24px;
+  border-radius: 50%;
+}
+
+.post__image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom:12px;
+  margin-top:12px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.post__author {
+  display: flex;
+  margin-top:4px;
+  align-items: center;
+  gap: 12px;
 }
