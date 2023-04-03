@@ -15,7 +15,8 @@ html,
 body,
 h1,
 p,
-h5 {
+h5,
+h2{
   margin: 0px;
 }
 
@@ -39,10 +40,10 @@ h5 {
 }
 
 .button {
+  display:block;
   padding: 8px 24px;
   background: var(--color-primary);
   border-radius: 8px;
-	align-self: flex-start;
   border: 0px;
   color: #FFFFFF;
 }
@@ -127,4 +128,64 @@ height: 24px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 48px 128px;
+}
+
+.posts__button {
+  display: flex;
+margin: 48px 0px 48px 0px;
+
+	// margin: gora prawo dol lewa;
+	// margin: 48px 0px 48px 0;
+	// margin: gora_dol lewo_prawo;
+	// margin: 48px 0px;
+	
+  justify-content: center;
+}
+
+.subscribtion {
+display:flex;
+  justify-content: center;
+  background-color: #729B79;
+  color:#FFFFFF;
+}
+
+.subscribtion__content {
+  margin: 48px 0px;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 500px;
+  text-align: center;
+  
+}
+
+.subscribtion__content-field {
+  text-align: left;
+}
+
+.subscribtion__content-paragraph {
+  margin: 24px 0px;
+}
+
+.subscribtion__content-field--last {
+  margin: 12px 0px 24px 0px;
+}
+
+label {
+	display: block;
+	margin-bottom: 4px;
+}
+
+.input {
+  color: white;
+	background-color:transparent;
+  border: 1px solid white;
+	outline: none;
+  padding: 8px 24px;
+  border-radius: 4px;
+	// border: GRUBOSC typ kolor;
+}
+
+.input::placeholder {
+	color:white;
 }
