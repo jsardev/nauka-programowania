@@ -1,0 +1,7 @@
+{
+  "name": "nauka-programowania",
+  "description": "Repozytorium w którym zbieramy wiedzę na temat programowania w świecie webowym",
+  "version": "0.0.0",
+	"dependencies": {},
+  "devDependencies": {}
+}
