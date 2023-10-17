@@ -2,6 +2,10 @@
   "name": "nauka-programowania",
   "description": "Repozytorium w którym zbieramy wiedzę na temat programowania w świecie webowym",
   "version": "0.0.0",
-	"dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "serve": "^14.2.1"
+  },
+  "scripts": {
+    "serve-page-1": "serve 02.frontend/02.css/03.trening1"
+  }
 }
