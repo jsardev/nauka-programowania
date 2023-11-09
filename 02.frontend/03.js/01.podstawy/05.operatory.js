@@ -1,10 +1,28 @@
 /** IFY, WARUNKI */
 
-if (5 == 5) {
+if (5 == 5) { // 5 == 5 = true
 	// costam
 } else {
 	// costam
 }
+
+const a = 5
+const b
+const c = undefined
+
+/**
+ * wartosci rzutowane na `false`:
+ * - undefined
+ * - null
+ * - 0
+ * - ''
+ * 
+ * if(^ktoras z wartosci powyzej) {
+ * 		nie wykona sie bo te wartosci sa false
+ * } else {
+ * 		wykona sie
+ * }
+ */
 
 if () {
 	// costam
