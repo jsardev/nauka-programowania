@@ -2,12 +2,20 @@
  * Zadanie 1.
  */
 
-
-
+function welcome(name) {
+}
+const welcomeMessage = welcome("Wojtek")
+console.log(welcomeMessage)
+  
 /**
  * Zadanie 2.
  */
 
+function rectangleArea(a, b) {
+    return a * b
+}
+const result = rectangleArea(5, 10)
+console.log(result)
 
 
 /**
@@ -19,3 +27,8 @@ const personData = {
         zipCode: '62-200'
     }
 }
+function getPersonZipCode(person) {
+    return person.address.zipCode
+}
+const personZipCode = getPersonZipCode(personData)
+console.log(personZipCode)
