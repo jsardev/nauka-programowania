@@ -8,17 +8,25 @@
 
 CLI (program terminalowy, bezokienkowy, skrypt) do systemu kontroli wersji.
 
-### Komendy
+### Operacje
 
-- init - utworzenie repozytorium, konkretny folder staje sie "repozytorium", czyli mozna utrzymywac wiele wersji plikow z tego folderu
-- commit - "zapisanie" wersji konkretnych plikow
-- status - pokazuje ktore pliki sie zmienily w porownaniu do ostatniej wersji
-- add - dodaje konkretne pliki do "stage"
-- diff - pokazuje roznice w plikach w porownaniu do ostatniej wersji
-- push - wysyla Twoja historie do zewnetrznego repozytorium
-- pull - sciaga historie z zewnetrznego repozytorium
-- log - pokazuje historie
+> Hint: Tekst w postaci `$COS_TAKIEGO` musisz podmienic tym, czego potrzebujesz, np. `git add $PLIK_1 $PLIK_2` -> `git add package.json 00.inne/git.md`
 
-### Inne
+- `git init` - tworzy repozytorium w folderze w ktorym aktualnie jestes (sprawdz: `pwd`)
+- `git add $PLIK_1 $PLIK_2 ...` - dodaje wybrane pliki do **stage**
+- `git add .` - dodaje wszystkie zmienione pliki do **stage**
+- `git status` - pokazuje aktualny status zmian - co mamy zmodyfikowane + co mamy w **stage**
+- `git diff` - pokazuje zmiany jakie aktualnie masz w plikach
+- `git diff --staged` - pokazuje zmiany jakie aktualnie masz w plikach, ale tylko te, ktore sa w **stage**
+- `git commit -m "$OPIS_ZMIANY"` - tworzy nowy commit z zmian ktore masz w **stage**. 
+- `git branch` - lista branchy w repozytorium
+- `git branch $NAZWA_BRANCHA` - tworzy nowego brancha w lokalnym repozytorium
+- `git pull` - zaciaganie zmian z zdalnego repozytorium
+- `git push` - wrzucanie lokalnych zmian do zdalnego repozytorium
+- `git merge $NAZWA_BRANCHA` - merguje brancha `$NAZWA_BRANCHA` z branchem na ktorym aktualnie jestes (sprawdz: `git status`)
+- `git log` - pokazuje historie zmian w repozytorium
+
+
+### Nomenklatura
 
 - konflikt - sytuacja w ktorej ktos zmienil to samo co Ty (w momencie pulla/merge-a), trzeba rozwiazac konflikt przed dalsza praca
