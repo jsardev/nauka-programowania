@@ -20,18 +20,38 @@ const includes1 = a.includes(5) // true
 const includes2 = a.includes(10) // false
 
 const d1 = ['witaj', 'pozdrawiam', 'costam']
-const join1 = d.join('/') // 'witaj/pozdrawiam/costam'
+const join1 = d1.join('/') // 'witaj/pozdrawiam/costam'
 const d2 = [7, 1, 1993]
-const join2 = d.join('/') // '7/1/1993'
+const join2 = d2.join('/') // '7/1/1993'
+
+const map1 = [1, 2, 3, 4]
+function mapFn(element) {
+    return element * 2
+}
+// const mapFn = (element) => {
+//     return element * 2
+// }
+const map2 = map1.map(mapFn) // [2, 4, 6, 8]
+
+const filter1 = ['bbb', 'bba', 'ccc', 'cca']
+const filter2 = filter1.filter(gowno => {
+    return !gowno.includes('a')
+}) // ['bbb', 'ccc']
+
+const some1 = ['bbb', 'bbx', 'ccc', 'cca']
+const some2 = some1.some(element => {
+    return element.includes('a')
+}) // true
+
+const every1 = ['bba', 'bba', 'cca', 'ccc']
+const every2 = every1.some(element => {
+    return element.includes('a')
+}) // false bo 'ccc' nie ma 'a'
 
 /**
  * Na pozniej
  */
-// a.map()
 // a.sort(compareFn)
 // a.reduce()
 // a.forEach()
-// a.filter()
-// a.every()
-// a.some()
 // a.find()
